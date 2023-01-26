@@ -241,6 +241,15 @@
     border-radius: 8px;
     padding: 3%;
 }
+.fact:hover{
+    transition: 5s;
+    transform:scale(1.5)
+}
+.fact-img:hover{
+    transition: 5s;
+    transform: rotate(360deg);
+}
+
 
 .fact-data {
     font-weight: 600;
@@ -366,6 +375,9 @@
     .fact-section {
         margin-bottom: 30%;
     }
+    .fact:hover{
+        transform:scale(1.1)
+    }
 
     /* sponsor section styles */
     .sponsor-section{
@@ -444,14 +456,18 @@
     }
 
     /* facts styles */
-    .fact-section {}
 
     .facts {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 4%;
     }
+    .fact:hover{
+        transition: 5s;
+        transform:scale(1.15)
+    }
 
+    /* Sponsor sect */
     .sponsor-section>.section-title {
         margin-left: 25%;
     }
