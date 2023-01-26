@@ -253,29 +253,44 @@
     font-size: 20px;
     color: #727272;
 }
+
 /* sponsors section */
-.sponsor-section{
+.sponsor-section {
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 7%;
 }
-.sponsor-section>.section-title{
+
+.sponsor-section>.section-title {
     margin-left: 40%;
     margin-bottom: 3%;
 }
-.sponsor-description{
+
+.sponsor-description {
     margin-left: 35%;
     width: 35%;
     text-align: center;
     margin-bottom: 5%;
 }
-.sponsor{
+
+.sponsor {
     display: grid;
-    grid-template-columns:repeat(5,1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 5%;
 }
-.sponsor-logo{
+
+.sponsor-logo {
     filter: grayscale(100%);
+}
+
+/* footer styles */
+.footer {
+    margin-left: 10%;
+    margin-right: 10%;
+    background: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+    padding: 1%;
 }
 
 
@@ -340,28 +355,37 @@
         width: 100%;
         height: 40%;
     }
+
     /* Facts styles */
-    .facts{
+    .facts {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: 4%;
     }
-    .fact-section{
+
+    .fact-section {
         margin-bottom: 30%;
     }
+
     /* sponsor section styles */
-    .sponsor-section>.section-title{
-        margin-left:0%;
+    .sponsor-section{
+        margin-bottom: 30%;
     }
-    .sponsor-description{
+    .sponsor-section>.section-title {
+        margin-left: 0%;
+    }
+
+    .sponsor-description {
         margin-left: 10%;
         width: 80%;
     }
-    .sponsor{
-        grid-template-columns: repeat(1,1fr);
+
+    .sponsor {
+        grid-template-columns: repeat(1, 1fr);
         gap: 7%;
         margin-left: 25%;
     }
+
 
 }
 
@@ -414,27 +438,31 @@
     .feature-list {
         flex-direction: column;
     }
-    .feature-btn{
-        top:90%
-    }
-    /* facts styles */
-    .fact-section{
 
+    .feature-btn {
+        top: 90%
     }
-    .facts{
+
+    /* facts styles */
+    .fact-section {}
+
+    .facts {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 4%;
     }
-    .sponsor-section>.section-title{
+
+    .sponsor-section>.section-title {
         margin-left: 25%;
     }
-    .sponsor-description{
+
+    .sponsor-description {
         margin-left: 20%;
         width: 60%;
     }
-    .sponsor{
-        grid-template-columns: repeat(2,1fr);
+
+    .sponsor {
+        grid-template-columns: repeat(2, 1fr);
         gap: 7%;
         margin-left: 15%;
     }
